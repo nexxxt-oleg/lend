@@ -2,6 +2,42 @@ body {
   font-family: 'Manrope', sans-serif;
 }
 
-.main {
+.fans {
   overflow: hidden;
+  background: linear-gradient(180deg, #051E26 0%, #FEFEFE 25.52%);
+  &__header {
+    width: 100%;
+    max-width: 1880px;
+    height: 1229px;
+    margin: 0 auto;
+    border-radius: 0px 0px 50px 50px;
+    background:  linear-gradient(137deg, #1B1B1B 21.01%, #063F51 84.93%);
+    &__top {
+      padding-top: 30px;
+      padding-bottom: 170px;
+    }
+    &__logo {
+      display: block;
+    }
+    &__title {
+      color: #FFF;
+      text-align: center;
+      font-size: 56px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 60px;
+      text-transform: uppercase;
+      padding: 0 30px;
+      margin: 0;
+    }
+  }
+}
+.container-fluid {
+  max-width: 1590px;
+}
+.blue-color {
+  color: #1DA1F2;
+}
+.pure-color {
+  color: #E668B3;
 }
