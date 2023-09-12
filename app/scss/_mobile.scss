@@ -172,10 +172,19 @@
   }
   .fans__sectr4 p {
     font-size: 16px;
+    &.fs-18 {
+      font-size: 14px;
+      color: #AEAEAE;
+    }
+  }
+  .fans__sectr4__row2__img {
+    padding-top: 15px;
   }
   .fans__sectr4 {
     padding-bottom: 50px;
+    padding-top: 30px;
   }
+
   .fans__sectr5__left {
     padding-right: 0;
   }

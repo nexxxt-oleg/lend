@@ -287,6 +287,9 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    &.fs-18 {
+      font-size: 18px;
+    }
   }
   &__map {
     margin: 0 -15px 0 -150px;
